@@ -1,0 +1,36 @@
+:root{
+  --sh-blue-700:#3D5568;
+  --sh-blue-300:#AFCEDF;
+  --sh-yellow-400:#FFD45B;
+  --sh-ink:#2D3A44;
+  --sh-bg:#FAF7F2;
+  --sh-border:#E3E1DC;
+  --sh-white:#FFFFFF;
+}
+
+
+.mainButton {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid var(--sh-blue-700);
+  border-radius: 16px;
+  background-color: transparent;
+  color: var(--sh-blue-700);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.mainButton:hover {
+  background-color: var(--sh-blue-700);
+  color: white;
+}
+
+/* Botón circular pequeño para retroceso */
+.backButton{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}

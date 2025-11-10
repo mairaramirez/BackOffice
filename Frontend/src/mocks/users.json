@@ -1,0 +1,4 @@
+{
+  "mir":[{ "id":"u1","nombre":"Admin MIR","email":"mir@demo.com", "rol":"Admin"}],
+  "serviceHome":[{ "id":"u2","nombre":"Operador SH","email":"sh@demo.com", "rol":"Operador"}]
+}

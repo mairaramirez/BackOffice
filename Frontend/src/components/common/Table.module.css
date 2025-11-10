@@ -1,0 +1,5 @@
+.table{ width:100%; border-collapse:collapse; }
+.th, .td{ text-align:left; padding:10px 12px; border-bottom:1px solid var(--sh-border); }
+.thead{ background:var(--sh-bg); color:var(--sh-ink); }
+.tr:nth-child(even){ background:rgba(0,0,0,0.02); }
+.actions{ display:flex; gap:8px; }

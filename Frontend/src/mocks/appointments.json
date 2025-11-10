@@ -1,0 +1,38 @@
+[
+  {
+    "id":"apt-001",
+    "oficio":"Electricista",
+    "dia":"2025-10-20",
+    "hora_desde":"09:30",
+    "hora_hasta":"11:00",
+    "cliente":"Carlos Gómez",
+    "observaciones":[{"id":"obs-1","dia":"2025-10-15","hora":"10:15","texto":"Revisión tablero."}]
+  },
+  {
+    "id":"apt-002","oficio":"Plomero","dia":"2025-10-21","hora_desde":"08:00","hora_hasta":"09:00","cliente":"María López","observaciones":[]
+  },
+  {
+    "id":"apt-003","oficio":"Pintor","dia":"2025-10-22","hora_desde":"10:00","hora_hasta":"12:00","cliente":"Juan Pérez","observaciones":[]
+  },
+  {
+    "id":"apt-004","oficio":"Jardinería","dia":"2025-10-23","hora_desde":"13:00","hora_hasta":"14:30","cliente":"Ana Torres","observaciones":[]
+  },
+  {
+    "id":"apt-005","oficio":"Gasista","dia":"2025-10-24","hora_desde":"15:00","hora_hasta":"16:00","cliente":"Luis Martínez","observaciones":[]
+  },
+  {
+    "id":"apt-006","oficio":"Herrero","dia":"2025-10-25","hora_desde":"09:00","hora_hasta":"10:30","cliente":"Sofía Díaz","observaciones":[]
+  },
+  {
+    "id":"apt-007","oficio":"Electricista","dia":"2025-10-26","hora_desde":"11:00","hora_hasta":"12:30","cliente":"Pedro Sánchez","observaciones":[]
+  },
+  {
+    "id":"apt-008","oficio":"Plomero","dia":"2025-10-27","hora_desde":"14:00","hora_hasta":"15:30","cliente":"Laura Gómez","observaciones":[]
+  },
+  {
+    "id":"apt-009","oficio":"Pintor","dia":"2025-10-28","hora_desde":"08:30","hora_hasta":"10:00","cliente":"Diego Castro","observaciones":[]
+  },
+  {
+    "id":"apt-010","oficio":"Jardinería","dia":"2025-10-29","hora_desde":"10:30","hora_hasta":"12:00","cliente":"Marta Ruiz","observaciones":[]
+  }
+]

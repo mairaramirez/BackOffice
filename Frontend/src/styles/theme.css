@@ -1,0 +1,15 @@
+:root{
+  --brand-700:#3D5568;   /* azul profundo principal */
+  --brand-300:#AFCEDF;   /* celeste suave */
+  --base-25:#FAF7F2;     /* casi blanco cálido */
+  --base-100:#E3E1DC;    /* gris cálido suave */
+  --ink-900:#1F2933;     /* texto */
+  --radius-12:16px;
+  --shadow-s:0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.1);
+  /* Paleta contratos */
+  --primary-600: var(--brand-700);
+  --primary-200: var(--brand-300);
+  --surface: var(--base-25);
+  --muted-300: var(--base-100);
+  --text-900: var(--ink-900);
+}
