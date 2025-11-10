@@ -1,0 +1,103 @@
+/* Base card */
+.card {
+    position: relative;
+    max-width: 980px;
+    margin: 24px auto;
+    padding: 24px 24px 16px;
+    background: #FAF7F2;           /* fondo claro */
+    border: 2px solid #2C3E50;     /* borde */
+    border-radius: 18px;
+}
+
+/* Header */
+.header{
+    display: grid;
+    grid-template-columns: /* logo */ auto /* título */ 1fr /* back */ 48px;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 8px 8px;
+}
+:root {
+    --logo-w: clamp(120px, 16vw, 220px); /* crece con viewport */
+    --logo-h: clamp(80px, 10vw, 140px);
+
+}
+
+.logoMYR{
+    width: var(--logo-w);
+    height: var(--logo-h);
+    border-radius: 10px;
+    background: url("../logos/MYR.png") center/contain no-repeat;
+}
+.logo--xl { width: 260px; height: 160px; }
+.title{
+    text-align: center;
+    font-weight: 800;
+    color: var(--accent);
+    margin: 0;
+    letter-spacing: 0.12em;}
+
+.header .back {
+    justify-self: end;
+}
+
+/* Grid de campos */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px,1fr));
+    gap: 14px 18px;
+    margin-top: 8px;
+}
+.field{ display:flex; flex-direction: column; gap:6px; }
+.label{
+    font-size: 12px;
+    letter-spacing: .18em;
+    color: #3A4A59;
+}
+.input{
+    height: 38px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #C8D2DA;
+    background: #D8DADC30;
+}
+.inputLong{ grid-column: 1 / -1; } /* ocupa toda la fila (Dirección/Email) */
+
+/* Acciones */
+.actions{
+    display:flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.primary{
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: 2px solid #3A4A59;
+    background: #3A4A59;
+    color: #fff;
+    font-weight: 600;
+}
+.primary:disabled{ opacity:.6; }
+
+/* Nota al pie */
+.footNote{
+    margin-top: 12px;
+    font-size: 11px;
+    text-align: center;
+    color: #7A8A97;
+}
+
+/* Paleta MYR (si querés un tono más “MYR-blue”) */
+.card-myr{
+    --accent: #3D5568;
+    border-color: var(--accent);
+}
+
+
+.primary{
+    border-color: var(--accent);
+    background: var(--accent);
+}
+@media (max-width: 680px){
+    .header { grid-template-columns: auto 1fr 40px; gap: 16px; }
+}
