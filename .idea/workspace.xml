@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe1dec8f-4151-4988-8a2f-815c525fbea1" name="Changes" comment="&quot;Creamos pantallas&quot;">
-      <change afterPath="$PROJECT_DIR$/git ignore" afterDir="false" />
+    <list default="true" id="fe1dec8f-4151-4988-8a2f-815c525fbea1" name="Changes" comment="&quot;git ignore creado&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <updated>1762271485171</updated>
       <workItem from="1762271486528" duration="11724000" />
       <workItem from="1762724790277" duration="19535000" />
-      <workItem from="1762811138045" duration="330000" />
+      <workItem from="1762811138045" duration="1756000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Creamos pantallas&quot;">
       <option name="closed" value="true" />
@@ -87,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762811306885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;git ignore creado&quot;">
+      <option name="closed" value="true" />
+      <created>1762811737814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762811737814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Creamos pantallas&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Creamos pantallas&quot;" />
+    <MESSAGE value="&quot;git ignore creado&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;git ignore creado&quot;" />
   </component>
 </project>
