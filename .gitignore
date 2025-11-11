@@ -1,27 +1,26 @@
-# dependencias
+# Dependencias
 node_modules/
+**/node_modules/
 
-# builds
+# Builds
 dist/
 build/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.out/
+.next/
+.vite/
 
-# env
-.env
-.env.*.local
-
-# editor/IDE
+# IDE/OS
 .idea/
 .vscode/
-
-# caches
-.vite/
-.cache/
-coverage/
-
-# SO
 .DS_Store
-Thumbs.db
+
+# Env/keys
+.env
+*.env.local
+*.env.*.local
+
+# Logs y cache
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+.cache/
