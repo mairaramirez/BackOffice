@@ -1,5 +1,29 @@
-.field{ display:flex; flex-direction:column; gap:6px; }
-.label{ font-size:12px; letter-spacing:.1em; color:var(--sh-blue-700); text-transform:uppercase; }
-.input{ padding:10px 12px; border:1px solid var(--sh-border); border-radius:8px; background:var(--sh-white); }
-.input:focus-visible{ outline:3px solid var(--sh-blue-300); border-color:var(--sh-blue-700); }
-.error{ color:#b00020; font-size:12px; }
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.label {
+    font-size: 12px;
+    letter-spacing: .1em;
+    color: var(--sh-blue-700);
+    text-transform: uppercase;
+}
+
+.input {
+    padding: 10px 12px;
+    border: 1px solid var(--sh-border);
+    border-radius: 8px;
+    background: var(--sh-white);
+}
+
+.input:focus-visible {
+    outline: 3px solid var(--sh-blue-300);
+    border-color: var(--sh-blue-700);
+}
+
+.error {
+    color: #b00020;
+    font-size: 12px;
+}

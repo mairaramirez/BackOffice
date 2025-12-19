@@ -1,5 +1,68 @@
-.table{ width:100%; border-collapse:collapse; }
-.th, .td{ text-align:left; padding:10px 12px; border-bottom:1px solid var(--sh-border); }
-.thead{ background:var(--sh-bg); color:var(--sh-ink); }
-.tr:nth-child(even){ background:rgba(0,0,0,0.02); }
-.actions{ display:flex; gap:8px; }
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th,
+.td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--sh-border);
+}
+
+.thead {
+  background: var(--sh-bg);
+  color: var(--sh-ink);
+}
+
+.tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* 🔥 Hover SOLO si la fila es clickeable */
+.clickable:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* Mano sólo en filas clickeables */
+.clickable {
+  cursor: pointer;
+}
+
+/* Alineaciones dinámicas */
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.thContent {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sortIcon {
+  font-size: 11px;
+  opacity: 0.7;
+}
+

@@ -2,17 +2,21 @@ import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 
 // Home
-import Landing from '../views/home/Landing.jsx'
+import Landing from '../features/home/Landing.jsx'
 
 // MYR
-import MyrMenu from '../views/myr/Menu.jsx'
-import MyrNuevoUsuario from '../views/myr/NuevoUsuario.jsx'
+import MyrMenu from '../features/myr/Menu.jsx'
+import MyrNuevoUsuario from '../features/myr/user/NuevoUsuario.jsx'
 
 // Service Home
-import ShMenu from '../views/serviceHome/Menu.jsx'
-import ShNuevoUsuario from '../views/serviceHome/NuevoUsuario.jsx'
-import TurnosServicios from '../views/turnos/TurnosServicios.jsx'
-import TurnoNuevo from '../views/turnos/TurnoNuevo.jsx'
+// Service Home
+import ShMenu from '../features/service-home/Menu.jsx'
+import ShNuevoUsuario from '../features/service-home/users/NuevoUsuario.jsx'
+
+// Turnos (sub-feature de Service Home)
+import TurnosServicios from '../features/service-home/turnos/tabla/TurnosServicios.jsx'
+import TurnoNuevo from '../features/service-home/turnos/nuevoTurno/TurnoNuevo.jsx'
+
 
 const router = createBrowserRouter([
   {

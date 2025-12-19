@@ -1,3 +1,24 @@
-.tabs{ display:flex; gap:8px; flex-wrap:wrap; background:var(--sh-bg); border:1px solid var(--sh-border); padding:8px; border-radius:10px; }
-.tab{ padding:8px 12px; border-radius:8px; background:var(--sh-blue-300); color:var(--sh-blue-700); border:none; cursor:pointer; font-weight:600; }
-.active{ background:var(--sh-blue-700); color:var(--sh-white); }
+.tabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    background: var(--sh-bg);
+    border: 1px solid var(--sh-border);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.tab {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: var(--sh-blue-300);
+    color: var(--sh-blue-700);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.active {
+    background: var(--sh-blue-700);
+    color: var(--sh-white);
+}

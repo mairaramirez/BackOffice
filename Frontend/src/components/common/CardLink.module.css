@@ -1,0 +1,23 @@
+.cardLink {
+  display: block;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--sh-border);
+  background: var(--sh-white);
+  box-shadow: var(--shadow-s);
+  cursor: pointer;
+  transition: background .2s ease, transform .15s ease;
+  cursor: pointer;
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.cardLink:hover {
+  background: var(--sh-bg);
+  transform: translateY(-2px);
+}
+
+.cardLink:focus-visible {
+  outline: 3px solid var(--sh-blue-300);
+}
